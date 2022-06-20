@@ -1,16 +1,24 @@
 # 4-bit-LED-Binary-Counter
-
+## Overview
+This is a simple binary counter which counts from 0 to 15 in binary (0s and 1s)
 
 ## Materials Used
 * Raspberry Pi
 * Breadboard
-
+* 4 LEDs (1 red, 1 yellow, 1 blue and 1 green)
+* 4 resistors (220 ohms)
+* 4 male-to-male jumper wires
+* 5 male-to-female jumper leads
 
 ## Wiring 
 The table below ahows what the GPIO pins on the Raspberry Pi are connected to
 GPIO pin  | Component
 ------------- | -------------
-GPIO  |  LED
+GPIO 17 | Red LED
+GPIO 27 | Yellow LED
+GPIO 23 | Green LED
+GPIO 24 | Blue LED
+
 
 
 The images below show the wiring diagram as well as the schematics for the binary counter
