@@ -1,6 +1,7 @@
 # 4-bit-LED-Binary-Counter
 ## Overview
-This is a simple binary counter which counts from 0 to 15 in binary (0s and 1s)
+This is a simple binary counter which counts from 0 to 15 in binary (0s and 1s). When an LED is off it signifies a '0' and when it is on, it signifies a '1'.
+The program returns the time taken for the count is 15 seconds and with this, it could also be used as a timer. When all LEDs come on, you know that 15 seconds have passed. The code makes use of 4 'if loops' for the count. If the condition of the if loop is met, an LED comes on or else, if goes off.
 
 ## Materials Used
 * Raspberry Pi
@@ -11,7 +12,7 @@ This is a simple binary counter which counts from 0 to 15 in binary (0s and 1s)
 * 5 male-to-female jumper leads
 
 ## Wiring 
-The table below ahows what the GPIO pins on the Raspberry Pi are connected to
+The wiring of the circuit is based on a simple LED connection where the cathode is connected to a GPIO pin while the anode is conncted to a resistor which is then connected to the ground. The table below ahows what the GPIO pins on the Raspberry Pi are connected to.
 GPIO pin  | Component
 ------------- | -------------
 GPIO 17 | Red LED
